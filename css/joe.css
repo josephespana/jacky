@@ -83,6 +83,18 @@ General Styles
 .border-box {
 	box-sizing: border-box;
 }
+.left0 {
+	left: 0;
+}
+.right0 {
+	right: 0;
+}
+.top0 {
+	top: 0;
+}
+.bot0 {
+	bottom: 0;
+}
 
 /*---
 Border Styles
@@ -886,8 +898,11 @@ Responsive Styles
 	.m5-right-s {
 		margin-right: 5em;
 	}
+	.hide-s {
+		display: none;
+	}
 	.show-s {
-		display: block;
+		display: initial;
 	}
 	.vis-s {
 		visibility: visible;
@@ -899,6 +914,24 @@ Responsive Styles
 	.right-s {
 		float: right;
 		box-sizing: border-box;
+	}
+	.absolute-s {
+		position: absolute;
+	}
+	.relative-s {
+		position: relative;
+	}
+	.left0-s {
+		left: 0;
+	}
+	.right0-s {
+		right: 0;
+	}
+	.top0-s {
+		top: 0;
+	}
+	.bot0-s {
+		bottom: 0;
 	}
 	.mw1-s {
 	  max-width: 1em;
