@@ -951,6 +951,9 @@ Responsive Styles
 	.vis-s {
 		visibility: visible;
 	}
+	.block-s {
+		display: block;
+	}
 	.left-s {
 		float: left;
 		box-sizing: border-box;
