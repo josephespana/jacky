@@ -115,6 +115,9 @@ Border Styles
 	border-radius: 1em;
 	overflow: hidden;
 }
+.b0 {
+	border: none;
+}
 .b1 {
 	border: 1px solid;
 }
@@ -584,6 +587,9 @@ Width Styles
 .w50 {
 	width: 50%;
 }
+.w33 {
+	width: 33%;
+}
 .w25 {
 	width: 25%;
 }
@@ -645,6 +651,7 @@ Min Height Styles
 Responsive Styles
 ---*/
 @media screen and (min-width: 48em) {
+/* Typography */
 	.f1-s {
 		font-size: 4em;
 	}
@@ -663,6 +670,37 @@ Responsive Styles
   .f6-s {
 		font-size: .7em;
 	}
+/* Widths */
+	.mw1-s {
+	  max-width: 1em;
+	}
+	.mw2-s {
+	  max-width: 2em;
+	}
+	.mw3-s {
+	  max-width: 4em;
+	}
+	.mw4-s {
+	  max-width: 8em;
+	}
+	.mw5-s {
+	  max-width: 16em;
+	}
+	.mw6-s {
+	  max-width: 32em;
+	}
+	.mw7-s {
+	  max-width: 48em;
+	}
+	.mw8-s {
+	  max-width: 64em;
+	}
+	.mw9-s {
+	  max-width: 96em;
+	}
+	.mw10-s {
+	  max-width: 128em;
+	}
 	.w100-s {
 		width: 100%;
 	}
@@ -672,9 +710,13 @@ Responsive Styles
 	.w50-s {
 		width: 50%;
 	}
+	.w33-s {
+		width: 33%;
+	}
 	.w25-s {
 		width: 25%;
 	}
+/* Padding */
 	.p0-s {
 		padding: 0em;
 	}
@@ -797,6 +839,7 @@ Responsive Styles
 	.p5-s {
 		padding: 5em;
 	}
+/* Margin */
 	.m1-s {
 		margin: 1em;
 	}
@@ -898,6 +941,7 @@ Responsive Styles
 	.m5-right-s {
 		margin-right: 5em;
 	}
+/* Layout Styles */
 	.hide-s {
 		display: none;
 	}
@@ -933,34 +977,7 @@ Responsive Styles
 	.bot0-s {
 		bottom: 0;
 	}
-	.mw1-s {
-	  max-width: 1em;
-	}
-	.mw2-s {
-	  max-width: 2em;
-	}
-	.mw3-s {
-	  max-width: 4em;
-	}
-	.mw4-s {
-	  max-width: 8em;
-	}
-	.mw5-s {
-	  max-width: 16em;
-	}
-	.mw6-s {
-	  max-width: 32em;
-	}
-	.mw7-s {
-	  max-width: 48em;
-	}
-	.mw8-s {
-	  max-width: 64em;
-	}
-	.mw9-s {
-	  max-width: 96em;
-	}
-	.mw10-s {
-	  max-width: 128em;
+	.b0-s {
+		border: none;
 	}
 }
